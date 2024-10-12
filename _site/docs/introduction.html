@@ -115,10 +115,61 @@
 </tr>
 </tbody>
 </table>
-<p><strong>nissebus</strong>
-fff</p>
-<p>yyy
-<strong>bajs</strong></p>
+<h3 id="heading-level-3">Heading level 3</h3>
+<p>This is the first line.<br>
+And this is the second line.</p>
+<p>Love<strong>is</strong>bold</p>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-json">{
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Smith&quot;,
+  &quot;age&quot;: 25
+}
+</code></pre>
+<pre><code class="lang-cs"> foreach (var cust in customers.Rows)
+ {
+     var customer = new Customer
+     {
+         Adress = cust.Adress == &quot;null&quot; ? null : cust.Adress,
+         Adresstyp = cust.Adresstyp == &quot;null&quot; ? null : cust.Adresstyp,
+         Epost = cust.Epost == &quot;null&quot; ? null : cust.Epost,
+         Kundnr = cust.Kundnr,
+         Namn = cust.Namn == &quot;null&quot; ? null : cust.Namn,
+         Orgnr = cust.Orgnr == &quot;null&quot; ? null : cust.Orgnr,
+         Postnr = cust.Postnr == &quot;null&quot; ? null : cust.Postnr,
+         Stad = cust.Stad == &quot;null&quot; ? null : cust.Stad,
+         Telefon = cust.Telefon == &quot;null&quot; ? null : cust.Telefon,
+     };
+     custlist.Add(customer);
+     //ctx.Customers.Add(customer);
+     //ctx.SaveChanges();
+
+ }
+
+</code></pre>
+<p>test 😂</p>
+<blockquote>
+<p>📝 <strong>Note:</strong> Sunrises are beautiful.</p>
+<p>Euro (€) — €</p>
+</blockquote>
+<p>Euro (€) — €</p>
 
 </article>
 
